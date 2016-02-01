@@ -1,4 +1,4 @@
-package org.sample.support;
+package sample.support;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("org/sample/test.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("sample/belly.feature");
 formatter.feature({
   "line": 2,
   "name": "search a website in google",
@@ -11,6 +11,10 @@ formatter.feature({
       "name": "@smokeTest"
     }
   ]
+});
+formatter.before({
+  "duration": 4455392018,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 3,
@@ -41,31 +45,19 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.browse_google()"
+  "location": "StepDefinitions.browse_google()"
 });
 formatter.result({
-  "duration": 9935582713,
+  "duration": 2495713416,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.I_enter_the_keyword()"
+  "location": "StepDefinitions.I_enter_the_keyword()"
 });
 formatter.result({
-  "duration": 28693137598,
+  "duration": 3392131625,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.take_first_website_from_the_result()"
-});
-formatter.result({
-  "duration": 3075490277,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.I_should_be_my_desired_page()"
-});
-formatter.result({
-  "duration": 6957222851,
-  "status": "passed"
-});
+  "location": "StepDefinitions.take_first_website_from_the_result()"
 });

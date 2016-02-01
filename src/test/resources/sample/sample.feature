@@ -1,5 +1,6 @@
 @smokeTest
 Feature: search a website in google
+
     Scenario: Provide keyword and navigate to website
         Given browse google
         When I enter the keyword
